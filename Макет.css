@@ -1,0 +1,449 @@
+body {
+	width: 100%;
+	height: 3509px;
+	display: block;
+    margin-left: 0px;
+    margin-top: 0px;	
+    margin-bottom: 0px;
+    margin-right: 0px;
+
+}
+
+	header {
+		position: absolute;
+		width: 100%;
+		height: 800px;
+		left: 0px;
+		top: 0px;
+		background-image: url(D:\Notepad++/header-bg.png);
+		background-size: 100%;
+		
+	}
+
+
+
+		nav {
+			display: flex;
+			justify-content: center;
+		}
+
+		ul.first {
+			margin: 0; 
+			padding: 4px; 
+		   }
+		ul.first li {
+			display: inline; 
+			margin-right: 50px; 
+			padding: 25px; 
+			color: #FFFFFF;
+			text-decoration: none;
+		   }
+		   
+		.vector {
+			display: inline;
+			text-align: center;
+		}
+
+		ul.second {
+			margin: 0;
+			padding: 4px; 
+			
+		   }
+		ul.second li {
+			display: inline; 
+			margin-left: 50px; 
+			padding: 25px; 
+			color: #FFFFFF;
+			text-decoration: none;
+		   }   
+		   
+		div.restaurant {
+			margin-top: 151px;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			font-family: Open Sans;
+			font-weight: bold;
+			font-size: 12px;
+			letter-spacing: 0.5em;
+			color: #FFFFFF;
+		}
+
+		div.fs {
+			height: 139px;
+			margin-top: 0px;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			font-family: Acme;
+			font-size: 96px;
+			color: #FFFFFF;
+		}
+
+		div.rectangle {
+			position: absolute;
+			width: 60px;
+			height: 5.11px;
+			left: 720px;
+			top: 479.21px;
+
+			background: #E8C300;
+			border-radius: 50px;
+		}
+
+		div.bt {
+			display: inline; 
+			position: absolute;
+			width: 200px;
+			height: 60px;
+			left: 531px;
+			top: 515px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			justify-content: center;
+
+			background: #E8C300;
+			border-radius: 5px;
+		}
+
+		div.explore {
+			display: inline; 
+			position: absolute;
+			width: 200px;
+			height: 60px;
+			left: 771px;
+			top: 515px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			justify-content: center;
+
+			background: rgba(0, 0, 0, 0);
+			border: 1px solid rgba(255, 255, 255, 0.5);
+			box-sizing: border-box;
+			border-radius: 5px
+			
+		}
+
+	section.aboutus {
+		position: absolute;
+		width: 100%;
+		top: 800px;
+		left: 0px;
+		height: 652px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+
+
+	}
+
+		article.about {
+			width: 85%;
+			height: 475px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		div.text {
+			display: inline; 
+			float: left;
+			width: 40%; 
+		}
+
+		div.rectangle2 {
+			
+			margin-left: 44%;
+
+			width: 60px;
+			height: 5.11px;
+			background: #E8C300;
+			border-radius: 50px;
+		}
+
+		.aboutimg {
+			float: right;
+			display: inline;
+		}
+
+	section.bookatable {
+		position: absolute;
+		width: 100%;
+		top: 1452px;
+		left: 0px;
+		height: 652px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+	}
+
+		.bookingimg {
+			float: left;
+			display: inline;
+		}
+
+		div.forms {
+			display: inline; 
+			float: right;
+			justify-content: center;
+			align-items: center;
+		}
+
+		article.book {
+			width: 85%;
+			height: 475px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+
+		div.textspc {
+			display: inline; 
+			float: right;
+			width: 40%; 
+			color: #FFFFFF;
+			text-decoration: none;
+		}   
+
+		.spcimg {
+			float: right;
+			display: inline;
+		}
+
+		article.spc {
+			width: 85%;
+			height: 475px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		
+		div.rectangle3 {
+			
+			margin-left: 45%;
+
+			width: 60px;
+			height: 5.11px;
+			background: #E8C300;
+			border-radius: 50px;			
+			margin-bottom: 20px;
+
+		}
+		
+		#name {
+
+			width: 277px;
+			height: 60px;
+			background: #E5E5E5;
+			border-radius: 5px;
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		
+		#email {
+
+			width: 277px;
+			height: 60px;
+			background: #E5E5E5;
+			border-radius: 5px;
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		
+		#phone {
+
+			width: 277px;
+			height: 60px;
+			background: #E5E5E5;
+			border-radius: 5px;
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		
+		#people {
+
+			width: 277px;
+			height: 60px;
+			background: #E5E5E5;
+			border-radius: 5px;
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		
+		#date {
+
+			width: 277px;
+			height: 60px;
+			background: #E5E5E5;
+			border-radius: 5px;
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		
+		#time {
+
+			width: 277px;
+			height: 60px;
+			background: #E5E5E5;
+			border-radius: 5px;
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		
+		div.bookbtn {
+			background: #E8C300;
+			border-radius: 5px;
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 20px;
+			height: 60px;
+			width: 558px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			justify-content: center;
+		}
+
+	section.specialties {
+		position: absolute;
+		width: 100%;
+		top: 2104px;
+		left: 0px;
+		height: 675px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		background-image: url(D:\Notepad++/specialtys-bg.png);
+		background-size: 100%;
+	}
+
+	section.contact {
+		position: absolute;
+		width: 100%;
+		top: 2779px;
+		left: 0px;
+		height: 640px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+
+	}
+	
+		article.cntct {
+			width: 85%;
+			height: 475px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		div.contactdiv {
+			display: inline; 
+			float: center;
+			justify-content: center;
+			align-items: center;
+		}
+		
+			#name1 {
+				width: 424px;
+				height: 60px;
+				background: #E5E5E5;
+				border-radius: 5px;
+				font-family: Open Sans;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 12px;
+				line-height: 20px;
+			}
+			
+			#email1 {
+				width: 424px;
+				height: 60px;
+				background: #E5E5E5;
+				border-radius: 5px;
+				font-family: Open Sans;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 12px;
+				line-height: 20px;
+			}
+			
+			#phone1 {
+				
+				border-right-width: 0px;
+				width: 424px;
+				height: 60px;
+				background: #E5E5E5;
+				border-radius: 5px;
+				font-family: Open Sans;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 12px;
+				line-height: 20px;
+			}
+			
+			#message {
+				width: 100%;
+				height: 120px;
+				background: #E5E5E5;
+				border-radius: 5px;
+				font-family: Open Sans;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 12px;
+				line-height: 20px;
+			}
+			
+			div.sendmssg {
+				background: #E8C300;
+				border-radius: 5px;
+				font-family: Open Sans;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 12px;
+				line-height: 20px;
+				height: 60px;
+				width: 85%;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				justify-content: center;
+				margin-top: 40px;
+				margin-left: 7%;
+			}
+
+	.footer {
+		position: absolute;
+		width: 100%;
+		height: 90px;
+		left: 0px;
+		top: 3419px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		background: rgba(0, 0, 0, 0.9);
+	}
